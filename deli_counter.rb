@@ -22,11 +22,11 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  if array.length == 0
-    "There is nobody waiting to be served!"
-  else array.length >= 1
+  if array.length >= 1
     array.each do |name|
     "Currently serving #{name}."
+  else array.length == 0
+  "There is nobody waiting to be served!"
     end
   end
 end
