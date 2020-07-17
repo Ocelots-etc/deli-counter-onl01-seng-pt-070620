@@ -25,6 +25,7 @@ def now_serving(array)
   if array.length >= 1
     array.each do |name|
     "Currently serving #{name}."
+    end
   else array.length == 0
   "There is nobody waiting to be served!"
     end
