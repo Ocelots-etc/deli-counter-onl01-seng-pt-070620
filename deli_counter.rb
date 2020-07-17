@@ -17,7 +17,7 @@ def take_a_number(array, name)
   index = 0
   katz_deli << "#{name}"
   array.each_with_index do |name, index|
-    puts "Welcome, #{name}. You are number #{index + 1} in line."
+    "Welcome, #{name}. You are number #{index + 1} in line."
     new_array << "#{index + 1}. #{name}"
   end
 end
